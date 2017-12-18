@@ -235,9 +235,9 @@ public class TButton extends TWidget {
             getScreen().putCharXY(getWidth() - 2, 0, ' ', buttonColor);
 
             getScreen().putCharXY(getWidth() - 1, 0,
-                GraphicsChars.CP437[0xDC], shadowColor);
+                ' ', shadowColor);
             getScreen().hLineXY(1, 1, getWidth() - 1,
-                GraphicsChars.CP437[0xDF], shadowColor);
+                ' ', shadowColor);
         }
         if (mnemonic.getShortcutIdx() >= 0) {
             if (inButtonPress) {

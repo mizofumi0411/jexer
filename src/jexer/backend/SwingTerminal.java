@@ -98,7 +98,9 @@ public class SwingTerminal extends LogicalScreen
     /**
      * The terminus font resource filename.
      */
-    private static final String FONTFILE = "terminus-ttf-4.39/TerminusTTF-Bold-4.39.ttf";
+//    private static final String FONTFILE = "terminus-ttf-4.39/TerminusTTF-Bold-4.39.ttf";
+//    private static final String FONTFILE = "misaki_gothic.ttf";
+    private static final String FONTFILE = "PixelMplus10-Regular.ttf"; //PixelMplus10-Regular.ttf
 
     /**
      * Cursor style to draw.
